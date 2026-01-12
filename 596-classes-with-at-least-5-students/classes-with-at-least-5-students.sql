@@ -2,4 +2,4 @@
 select class 
 from courses 
 group by class 
-having (count(student) > 4)
+having (count(class) > 4)
