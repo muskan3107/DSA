@@ -4,10 +4,10 @@ class Solution {
         int prod = 1;
         int num;
         while (n > 0) {
-            num = n%10;
+            num = n % 10;
             sum += num;
             prod *= num;
-            n = n/10;
+            n = n / 10;
         }
         return (prod - sum);
     }
